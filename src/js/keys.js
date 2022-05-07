@@ -1,4 +1,4 @@
-const keys = [
+const keybordKeys = [
   {
     name: 'Backquote',
     contentLang: {
@@ -309,7 +309,7 @@ const keys = [
   },
   {
     name: 'Delete',
-    contentLanDelg: {
+    contentLang: {
       en: 'Del',
       ru: 'Del',
     },
@@ -704,4 +704,4 @@ const keys = [
     },
   },
 ];
-export default keys;
+export default keybordKeys;

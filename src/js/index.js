@@ -1,4 +1,4 @@
-import keys from "./keys.js";
+import keybordKeys from "./keys.js";
 
 const Keyboard = {
   
@@ -6,20 +6,22 @@ const Keyboard = {
   download() {
     const display = document.createElement('textarea');
     display.classList.add('display');
-    document.querySelector('body').append(display);
+    document.body.append(display);
 
     const wrapper = document.createElement('div');
     wrapper.classList.add('keyboard__wrapper');
-    document.querySelector('body').append(wrapper);
 
-    const key = document.createElement('button');
-    key.classList.add('keyboard__key');
-    wrapper.append(key);
+    const keys = keybordKeys.map(el => {
+      console.log(el.contentLang.en);
+      let key = document.createElement('button');
+      key.classList.add('keyboard__key');
+      key.textContent = el.contentLang.en;
+      wrapper.append(key);
+      return key;
+    } )
+    document.body.append(wrapper);
   },
-
-  createKey() {
-    
-  }
+  
 }
 
 window.addEventListener('DOMContentLoaded', () => {

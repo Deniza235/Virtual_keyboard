@@ -1,21 +1,14 @@
-@font-face {
-  font-family: 'TT Commons';
-  font-weight: normal;
-  font-style: normal;
-  src: url('./assets/fonts/TTCommons-Regular.woff2') format('woff2'),
-      url('./assets/fonts/TTCommons-Regular.woff') format('woff');
-      
-}
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'TT Commons', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   overflow-x: hidden;
+  background-color: dimgrey;
 }
 
 .display {
@@ -23,7 +16,8 @@ body {
   display: block;
   width: 650px;
   height: 280px;
-  border: 2px solid deepskyblue;
+  box-shadow:  5px 5px 5px deepskyblue;
+  border-color: deepskyblue;
   border-radius: 10px;
   outline: none;
 	-moz-appearance: none;
@@ -34,14 +28,18 @@ body {
 .keyboard__wrapper {
   margin: 0 auto 20px;
   display: block;
-  width: 750px;
+  width: 850px;
   height: 350px;
-  border: 2px solid deepskyblue;
   border-radius: 10px;
-  background-color: cadetblue;
+  background: linear-gradient(145deg, #F2F7FB, #E9F2FB);
+  box-shadow:  8px 8px 15px deepskyblue;
 }
 
 .keyboard__key {
-  width: 50px;
+  width: 7%;
   height: 50px;
+  background: -webkit-linear-gradient(245deg, #1E71F5, #3CDEE7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
