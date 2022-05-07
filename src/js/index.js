@@ -16,6 +16,10 @@ const Keyboard = {
     key.classList.add('keyboard__key');
     wrapper.append(key);
   },
+
+  createKey() {
+    
+  }
 }
 
 window.addEventListener('DOMContentLoaded', () => {

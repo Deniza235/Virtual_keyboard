@@ -1,6 +1,6 @@
 const keys = [
   {
-    name: 'key_1',
+    name: 'Backquote',
     contentLang: {
       en: '`',
       ru: 'ё',
@@ -11,7 +11,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_1',
+    name: 'Digit1',
     contentLang: {
       en: '1',
       ru: '1',
@@ -22,7 +22,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_2',
+    name: 'Digit2',
     contentLang: {
       en: '2',
       ru: '2',
@@ -33,7 +33,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_3',
+    name: 'Digit3',
     contentLang: {
       en: '3',
       ru: '3',
@@ -44,7 +44,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_4',
+    name: 'Digit4',
     contentLang: {
       en: '4',
       ru: '4',
@@ -55,7 +55,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_5',
+    name: 'Digit5',
     contentLang: {
       en: '5',
       ru: '5',
@@ -66,7 +66,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_6',
+    name: 'Digit6',
     contentLang: {
       en: '6',
       ru: '6',
@@ -77,7 +77,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_7',
+    name: 'Digit7',
     contentLang: {
       en: '7',
       ru: '7',
@@ -88,7 +88,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_8',
+    name: 'Digit8',
     contentLang: {
       en: '8',
       ru: '8',
@@ -99,7 +99,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_9',
+    name: 'Digit9',
     contentLang: {
       en: '9',
       ru: '9',
@@ -110,7 +110,7 @@ const keys = [
     },
   },
   {
-    name: 'key_number_0',
+    name: 'Digit0',
     contentLang: {
       en: '0',
       ru: '0',
@@ -121,7 +121,7 @@ const keys = [
     },
   },
   {
-    name: 'key_2',
+    name: 'Minus',
     contentLang: {
       en: '-',
       ru: '-',
@@ -132,7 +132,7 @@ const keys = [
     },
   },
   {
-    name: 'key_3',
+    name: 'Equal',
     contentLang: {
       en: '=',
       ru: '=',
@@ -143,7 +143,7 @@ const keys = [
     },
   },
   {
-    name: 'key_backspace',
+    name: 'Backspace',
     contentLang: {
       en: 'backspace',
       ru: 'backspace',
@@ -154,7 +154,7 @@ const keys = [
     },
   },
   {
-    name: 'key_tab',
+    name: 'Tab',
     contentLang: {
       en: 'tab',
       ru: 'tab',
@@ -165,7 +165,7 @@ const keys = [
     },
   },
   {
-    name: 'key_4',
+    name: 'KeyQ',
     contentLang: {
       en: 'q',
       ru: 'й',
@@ -176,7 +176,7 @@ const keys = [
     },
   },
   {
-    name: 'key_5',
+    name: 'KeyW',
     contentLang: {
       en: 'w',
       ru: 'ц',
@@ -187,7 +187,7 @@ const keys = [
     },
   },
   {
-    name: 'key_6',
+    name: 'KeyE',
     contentLang: {
       en: 'e',
       ru: 'у',
@@ -198,7 +198,7 @@ const keys = [
     },
   },
   {
-    name: 'key_7',
+    name: 'KeyR',
     contentLang: {
       en: 'r',
       ru: 'к',
@@ -209,7 +209,7 @@ const keys = [
     },
   },
   {
-    name: 'key_8',
+    name: 'KeyT',
     contentLang: {
       en: 't',
       ru: 'е',
@@ -220,7 +220,7 @@ const keys = [
     },
   },
   {
-    name: 'key_9',
+    name: 'KeyY',
     contentLang: {
       en: 'y',
       ru: 'н',
@@ -231,7 +231,7 @@ const keys = [
     },
   },
   {
-    name: 'key_10',
+    name: 'KeyU',
     contentLang: {
       en: 'u',
       ru: 'г',
@@ -242,7 +242,7 @@ const keys = [
     },
   },
   {
-    name: 'key_11',
+    name: 'KeyI',
     contentLang: {
       en: 'i',
       ru: 'ш',
@@ -253,7 +253,7 @@ const keys = [
     },
   },
   {
-    name: 'key_12',
+    name: 'KeyO',
     contentLang: {
       en: 'o',
       ru: 'щ',
@@ -264,7 +264,7 @@ const keys = [
     },
   },
   {
-    name: 'key_13',
+    name: 'KeyP',
     contentLang: {
       en: 'p',
       ru: 'з',
@@ -275,7 +275,7 @@ const keys = [
     },
   },
   {
-    name: 'key_14',
+    name: 'BracketLeft',
     contentLang: {
       en: '[',
       ru: 'х',
@@ -286,7 +286,7 @@ const keys = [
     },
   },
   {
-    name: 'key_15',
+    name: 'BracketRight',
     contentLang: {
       en: ']',
       ru: 'ъ',
@@ -297,7 +297,7 @@ const keys = [
     },
   },
   {
-    name: 'key_slash',
+    name: 'Backslash',
     contentLang: {
       en: '\\',
       ru: '\\',
@@ -308,7 +308,18 @@ const keys = [
     },
   },
   {
-    name: 'key_capsLock',
+    name: 'Delete',
+    contentLanDelg: {
+      en: 'Del',
+      ru: 'Del',
+    },
+    contentShift: {
+      en: 'Del',
+      ru: 'Del',
+    },
+  },
+  {
+    name: 'CapsLock',
     contentLang: {
       en: 'capsLock',
       ru: 'capsLock',
@@ -319,7 +330,7 @@ const keys = [
     },
   },
   {
-    name: 'key_16',
+    name: 'KeyA',
     contentLang: {
       en: 'a',
       ru: 'ф',
@@ -330,7 +341,7 @@ const keys = [
     },
   },
   {
-    name: 'key_17',
+    name: 'KeyS',
     contentLang: {
       en: 's',
       ru: 'ы',
@@ -341,7 +352,7 @@ const keys = [
     },
   },
   {
-    name: 'key_18',
+    name: 'KeyD',
     contentLang: {
       en: 'd',
       ru: 'в',
@@ -352,7 +363,7 @@ const keys = [
     },
   },
   {
-    name: 'key_19',
+    name: 'KeyF',
     contentLang: {
       en: 'f',
       ru: 'а',
@@ -363,7 +374,7 @@ const keys = [
     },
   },
   {
-    name: 'key_20',
+    name: 'KeyG',
     contentLang: {
       en: 'g',
       ru: 'п',
@@ -374,7 +385,7 @@ const keys = [
     },
   },
   {
-    name: 'key_21',
+    name: 'KeyH',
     contentLang: {
       en: 'h',
       ru: 'р',
@@ -385,7 +396,7 @@ const keys = [
     },
   },
   {
-    name: 'key_22',
+    name: 'KeyJ',
     contentLang: {
       en: 'j',
       ru: 'о',
@@ -396,7 +407,7 @@ const keys = [
     },
   },
   {
-    name: 'key_23',
+    name: 'KeyK',
     contentLang: {
       en: 'k',
       ru: 'л',
@@ -407,7 +418,7 @@ const keys = [
     },
   },
   {
-    name: 'key_24',
+    name: 'KeyL',
     contentLang: {
       en: 'l',
       ru: 'д',
@@ -418,7 +429,7 @@ const keys = [
     },
   },
   {
-    name: 'key_25',
+    name: 'Semicolon',
     contentLang: {
       en: ';',
       ru: 'ж',
@@ -429,7 +440,7 @@ const keys = [
     },
   },
   {
-    name: 'key_26',
+    name: 'Quote',
     contentLang: {
       en: '\'',
       ru: 'э',
@@ -440,7 +451,7 @@ const keys = [
     },
   },
   {
-    name: 'key_enter',
+    name: 'Enter',
     contentLang: {
       en: 'enter',
       ru: 'enter',
@@ -451,7 +462,7 @@ const keys = [
     },
   },
   {
-    name: 'key_shiftLeft',
+    name: 'ShiftLeft',
     contentLang: {
       en: 'shift',
       ru: 'shift',
@@ -462,7 +473,7 @@ const keys = [
     },
   },
   {
-    name: 'key_27',
+    name: 'KeyZ',
     contentLang: {
       en: 'z',
       ru: 'я',
@@ -473,7 +484,7 @@ const keys = [
     },
   },
   {
-    name: 'key_28',
+    name: 'KeyX',
     contentLang: {
       en: 'x',
       ru: 'ч',
@@ -484,7 +495,7 @@ const keys = [
     },
   },
   {
-    name: 'key_29',
+    name: 'KeyC',
     contentLang: {
       en: 'c',
       ru: 'с',
@@ -495,7 +506,7 @@ const keys = [
     },
   },
   {
-    name: 'key_30',
+    name: 'KeyV',
     contentLang: {
       en: 'v',
       ru: 'м',
@@ -506,7 +517,7 @@ const keys = [
     },
   },
   {
-    name: 'key_31',
+    name: 'KeyB',
     contentLang: {
       en: 'b',
       ru: 'и',
@@ -517,7 +528,7 @@ const keys = [
     },
   },
   {
-    name: 'key_32',
+    name: 'KeyN',
     contentLang: {
       en: 'n',
       ru: 'т',
@@ -528,7 +539,7 @@ const keys = [
     },
   },
   {
-    name: 'key_33',
+    name: 'KeyM',
     contentLang: {
       en: 'm',
       ru: 'ь',
@@ -539,7 +550,7 @@ const keys = [
     },
   },
   {
-    name: 'key_34',
+    name: 'Comma',
     contentLang: {
       en: ',',
       ru: 'б',
@@ -550,7 +561,7 @@ const keys = [
     },
   },
   {
-    name: 'key_35',
+    name: 'Period',
     contentLang: {
       en: '.',
       ru: 'ю',
@@ -561,7 +572,7 @@ const keys = [
     },
   },
   {
-    name: 'key_36',
+    name: 'Slash',
     contentLang: {
       en: '/',
       ru: '.',
@@ -572,7 +583,7 @@ const keys = [
     },
   },
   {
-    name: 'key_arrowUp',
+    name: 'ArrowUp',
     contentLang: {
       en: '▲',
       ru: '▲',
@@ -583,7 +594,7 @@ const keys = [
     },
   },
   {
-    name: 'key_shiftRight',
+    name: 'ShiftRight',
     contentLang: {
       en: 'shift',
       ru: 'shift',
@@ -594,7 +605,7 @@ const keys = [
     },
   },
   {
-    name: 'key_ctrlLeft',
+    name: 'ControlLeft',
     contentLang: {
       en: 'ctrl',
       ru: 'ctrl',
@@ -605,7 +616,7 @@ const keys = [
     },
   },
   {
-    name: 'key_Win',
+    name: 'MetaLeft',
     contentLang: {
       en: 'Win',
       ru: 'Win',
@@ -616,7 +627,7 @@ const keys = [
     },
   },
   {
-    name: 'key_altLeft',
+    name: 'AltLeft',
     contentLang: {
       en: 'alt',
       ru: 'alt',
@@ -627,7 +638,7 @@ const keys = [
     },
   },
   {
-    name: 'key_space',
+    name: 'Space',
     contentLang: {
       en: ' ',
       ru: ' ',
@@ -638,7 +649,7 @@ const keys = [
     },
   },
   {
-    name: 'key_altRight',
+    name: 'AltRight',
     contentLang: {
       en: 'alt',
       ru: 'alt',
@@ -649,7 +660,7 @@ const keys = [
     },
   },
   {
-    name: 'key_arrowLeft',
+    name: 'ArrowLeft',
     contentLang: {
       en: '◄',
       ru: '◄',
@@ -660,7 +671,7 @@ const keys = [
     },
   },
   {
-    name: 'key_arrowDown',
+    name: 'ArrowDown',
     contentLang: {
       en: '▼',
       ru: '▼',
@@ -671,7 +682,7 @@ const keys = [
     },
   },
   {
-    name: 'key_arrowRight',
+    name: 'ArrowRight',
     contentLang: {
       en: '►',
       ru: '►',
@@ -682,7 +693,7 @@ const keys = [
     },
   },
   {
-    name: 'key_ctrlRight',
+    name: 'ControlRight',
     contentLang: {
       en: 'ctrl',
       ru: 'ctrl',
