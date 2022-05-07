@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'TT Commons';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../assets/fonts/TTCommons-Regular.woff2') format('woff2'),
+      url('../assets/fonts/TTCommons-Regular.woff') format('woff');
+      
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'TT Commons', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
