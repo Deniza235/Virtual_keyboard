@@ -59,53 +59,19 @@ body {
 	margin: 0 10px 10px 0;
 	cursor: pointer;
 	user-select: none;
-  /* font-size: 20px; */
+  background: linear-gradient(90deg, #fff, #fff);
+  border-color: linear-gradient(90deg, #1E71F5, #3CDEE7);
 }
 
-.keyboard__key:before {
-	content: '';
-	position: absolute;
-	left: -2px;
-	top: -2px;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	background: linear-gradient(90deg, #1E71F5, #3CDEE7);
-	z-index: -2;
-	transition: .4s;
-	border-radius: 5px;
-}
-
-.keyboard__key:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(90deg, #fff, #fff);
-	z-index: -1;
-	transition: .4s;
-	border-radius: 4px;
-}
-
+.active,
 .keyboard__key:hover {
 	color: #fff;
 	transition: .3s;
+  background: linear-gradient(90deg, #1E71F5, #3CDEE7);
 }
-.keyboard__key:hover:after {
-	background: linear-gradient(90deg, #1E71F5, #3CDEE7);
-}
-.keyboard__key:active:after {
-	background: linear-gradient(90deg, #1E71F5, #3CDEE7);
-}
+
 .keyboard__key:focus-visible {
 	box-shadow: 0 0 0 3px #1E71F5;
-}
-.keyboard__key:disabled {
-	pointer-events: none;
-}
-.keyboard__key:disabled:before {
-	filter: grayscale(100%);
 }
 
 .keyboard__key:nth-child(14),
