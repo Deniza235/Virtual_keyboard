@@ -14,7 +14,7 @@ body {
 
 .display {
   padding: 15px 20px;
-  margin: 70px auto 20px;
+  margin: 40px auto 20px;
   display: block;
   width: 650px;
   height: 280px;
@@ -42,6 +42,11 @@ body {
   border-radius: 10px;
   background: linear-gradient(145deg, #F2F7FB, #E9F2FB);
   box-shadow: 8px 8px 15px #d9e3ec;
+}
+
+.descr {
+  color: #ffffff;
+  text-align: center;
 }
 
 .keyboard__key {
