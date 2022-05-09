@@ -70,22 +70,10 @@ const Keyboard = {
     
   },
 
-  /* setLocalStorage() {
-    localStorage.setItem(this.language);
-  },
-
-  getLocalStorage() {
-    if(localStorage.getItem(this.language)) {
-      this.language = localStorage.getItem(this.language);
-    }
-  }, */
-
 }
 
 window.addEventListener('DOMContentLoaded', () => {
   Keyboard.download();
 })
 
-/* window.addEventListener('beforeunload', Keyboard.setLocalStorage);
-window.addEventListener('load', Keyboard.getLocalStorage); */
 
