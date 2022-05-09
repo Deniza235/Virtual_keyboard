@@ -22,7 +22,7 @@ body {
   border-color: rgba(166, 226, 246, 0.677);
   border-radius: 10px;
   outline: none;
-	-moz-appearance: none;
+  -moz-appearance: none;
   resize: none;
   color: #084fc2;
   opacity: 0.8;
@@ -50,28 +50,27 @@ body {
 }
 
 .keyboard__key {
+  margin: 0 10px 10px 0;
+  padding: 10px 15px;
   width: auto;
   min-width: 45px;
   height: 45px;
+  position: relative;
+  display: inline-block;
   text-decoration: none;
   color: #1E71F5;
-	display: inline-block;
-	padding: 10px 15px;
-	border: 1px solid;
-	position: relative;
-	z-index: 0;
-	border-radius: 5px;
-	margin: 0 10px 10px 0;
-	cursor: pointer;
-	user-select: none;
+  border:1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
   background: linear-gradient(90deg, #fff, #fff);
   border-color: linear-gradient(90deg, #1E71F5, #3CDEE7);
 }
 
 .active,
 .keyboard__key:hover {
-	color: #fff;
-	transition: .3s;
+  color: #ffffff;
+  transition: .5s;
   background: linear-gradient(90deg, #1E71F5, #3CDEE7);
 }
 
