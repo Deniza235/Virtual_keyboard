@@ -1,19 +1,104 @@
-@font-face {
-  font-family: 'TT Commons';
-  font-weight: normal;
-  font-style: normal;
-  src: url('../assets/fonts/TTCommons-Regular.woff2') format('woff2'),
-      url('../assets/fonts/TTCommons-Regular.woff') format('woff');
-      
-}
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'TT Commons', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   overflow-x: hidden;
+  background: url(../assets/images/background.jpg) no-repeat;
+  background-size: cover;
+}
+
+.display {
+  padding: 15px 20px;
+  margin: 40px auto 20px;
+  display: block;
+  width: 650px;
+  height: 280px;
+  box-shadow:  5px 5px 5px rgba(166, 226, 246, 0.677);
+  border-color: rgba(166, 226, 246, 0.677);
+  border-radius: 10px;
+  outline: none;
+	-moz-appearance: none;
+  resize: none;
+  color: #084fc2;
+  opacity: 0.8;
+}
+
+.keyboard__wrapper {
+  padding: 20px 15px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  gap: 3px;
+  width: 950px;
+  height: 350px;
+  border-color: #1E71F5;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #F2F7FB, #E9F2FB);
+  box-shadow: 8px 8px 15px #d9e3ec;
+}
+
+.descr {
+  color: #ffffff;
+  text-align: center;
+}
+
+.keyboard__key {
+  width: auto;
+  min-width: 45px;
+  height: 45px;
+  text-decoration: none;
+  color: #1E71F5;
+	display: inline-block;
+	padding: 10px 15px;
+	border: 1px solid;
+	position: relative;
+	z-index: 0;
+	border-radius: 5px;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+	user-select: none;
+  background: linear-gradient(90deg, #fff, #fff);
+  border-color: linear-gradient(90deg, #1E71F5, #3CDEE7);
+}
+
+.active,
+.keyboard__key:hover {
+	color: #fff;
+	transition: .3s;
+  background: linear-gradient(90deg, #1E71F5, #3CDEE7);
+}
+
+.keyboard__key:focus-visible {
+	box-shadow: 0 0 0 3px #1E71F5;
+}
+
+.keyboard__key:nth-child(14),
+.keyboard__key:nth-child(29),
+.keyboard__key:nth-child(42),
+.keyboard__key:last-child {
+  margin-right: 0;
+}
+
+.keyboard__key:nth-child(42) {
+  width: 130px;
+}
+
+.keyboard__key:nth-child(43){
+  width: 120px;
+}
+
+.keyboard__key:nth-child(55){
+  width: 117px;
+  margin-right: 0;
+}
+
+.keyboard__key:nth-child(59) {
+  width: 388px;
 }
