@@ -702,6 +702,6 @@ const keybordKeys = [
       en: 'ctrl',
       ru: 'ctrl',
     },
-  }
+  },
 ];
 export default keybordKeys;

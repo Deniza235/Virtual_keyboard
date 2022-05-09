@@ -69,7 +69,7 @@ body {
 
 .active,
 .keyboard__key:hover {
-	color: #ffffff;
+  color: #ffffff;
   transition: .5s;
   background: linear-gradient(90deg, #1E71F5, #3CDEE7);
 }
